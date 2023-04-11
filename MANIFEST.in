@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include akzo *.css
+recursive-include akzo *.csv
+recursive-include akzo *.html
+recursive-include akzo *.ico
+recursive-include akzo *.js
+recursive-include akzo *.json
+recursive-include akzo *.md
+recursive-include akzo *.png
+recursive-include akzo *.py
+recursive-include akzo *.svg
+recursive-include akzo *.txt
+recursive-exclude akzo *.pyc
