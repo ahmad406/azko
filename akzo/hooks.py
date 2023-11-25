@@ -7,6 +7,9 @@ app_description = "akzo"
 app_email = "parijat@gmail.com"
 app_license = "MIT"
 
+
+
+fixtures = ['Property Setter','Custom Field', 'Print Format']
 # Includes in <head>
 # ------------------
 
@@ -55,10 +58,11 @@ app_license = "MIT"
 # ----------
 
 # add methods and filters to jinja environment
-# jinja = {
-#	"methods": "akzo.utils.jinja_methods",
-#	"filters": "akzo.utils.jinja_filters"
-# }
+jinja = {
+	"methods":["akzo.akzo.report.summary_recycle.summary_recycle.prnt",
+	"akzo.akzo.report.summary_recycle.summary_recycle.grf"]
+}
+
 
 # Installation
 # ------------

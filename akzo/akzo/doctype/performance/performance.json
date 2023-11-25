@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-23 23:08:01.267826",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "line",
+  "no_of_cans_filled",
+  "volume_field",
+  "volume_hour",
+  "average_can_size",
+  "standrad_speed"
+ ],
+ "fields": [
+  {
+   "fieldname": "line",
+   "fieldtype": "Data",
+   "label": "Line"
+  },
+  {
+   "fieldname": "no_of_cans_filled",
+   "fieldtype": "Data",
+   "label": "No of cans Filled"
+  },
+  {
+   "fieldname": "volume_field",
+   "fieldtype": "Data",
+   "label": "Volume Filled"
+  },
+  {
+   "fieldname": "average_can_size",
+   "fieldtype": "Data",
+   "label": "Average Can Size"
+  },
+  {
+   "fieldname": "standrad_speed",
+   "fieldtype": "Data",
+   "label": "Standrad Speed"
+  },
+  {
+   "fieldname": "volume_hour",
+   "fieldtype": "Data",
+   "label": "Volume /Hour"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-23 23:11:35.923235",
+ "modified_by": "Administrator",
+ "module": "akzo",
+ "name": "Performance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
